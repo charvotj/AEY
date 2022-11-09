@@ -136,16 +136,16 @@ declare -A settings4=(
     [imageNumber]=5
     [imageName]='NewFile5.png'
 
-     [chAdivText]='2 V/div'
+     [chAdivText]='500 mV/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='5 V/div'
-    [chBdivPosition]='310,395'
+    [chBdivText]='500 mV/div'
+    [chBdivPosition]='270,395'
 
-    [chCdivText]='5 V/div'
-    [chCdivPosition]='200,395'
+    [chCdivText]='500 mV/div'
+    [chCdivPosition]='100,355'
 
-    [timeDivText]='100 us/div'
+    [timeDivText]='500 us/div'
     [timeDivPosition]='545,395'
 
     [leftYaxisText]='U (V)'
@@ -158,13 +158,13 @@ declare -A settings4=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='200,150'
+    [chALabelPosition]='230,100'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='470,70'
+    [chBLabelPosition]='430,50'
 
     [chCLabelText]='Uin2'
-    [chCLabelPosition]='90,140'
+    [chCLabelPosition]='90,100'
 )
 
 declare -A settings5=(
