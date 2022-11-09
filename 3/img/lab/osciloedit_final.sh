@@ -210,35 +210,35 @@ declare -A settings6=(
     [imageNumber]=7
     [imageName]='NewFile7.png'
 
-    [chAdivText]='500 mV/div'
+    [chAdivText]='2 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='200 mV/div'
+    [chBdivText]='2 V/div'
     [chBdivPosition]='250,395'
 
-    [chCdivText]='5 V/div'
+    [chCdivText]='2 V/div'
     [chCdivPosition]='100,360'
 
-    [timeDivText]='500 us/div'
+    [timeDivText]='200 us/div'
     [timeDivPosition]='545,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
+    [rightYaxisText]='U (V)'
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='225,135'
+    [chALabelPosition]='165,70'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='430,165'
+    [chBLabelPosition]='300,47'
 
     [chCLabelText]='Uin2'
-    [chCLabelPosition]='135,135'
+    [chCLabelPosition]='165,165'
 )
 
 declare -A settings7=(
@@ -247,39 +247,39 @@ declare -A settings7=(
     [imageNumber]=8
     [imageName]='NewFile8.png'
 
-    [chAdivText]='100 mV/div'
+    [chAdivText]='2 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='50 mV/div'
+    [chBdivText]='2 V/div'
     [chBdivPosition]='250,395'
 
-    [chCdivText]='1 V/div'
+    [chCdivText]='2 V/div'
     [chCdivPosition]='100,360'
 
-    [timeDivText]='500 us/div'
+    [timeDivText]='200 us/div'
     [timeDivPosition]='545,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
+    [rightYaxisText]='U (V)'
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='225,135'
+    [chALabelPosition]='165,70'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='430,165'
+    [chBLabelPosition]='300,70'
 
     [chCLabelText]='Uin2'
-    [chCLabelPosition]='135,135'
+    [chCLabelPosition]='165,190'
 )
 
 declare -A settings8=(
-    [active]=1
+    [active]=0
     [type]='normal'
     [imageNumber]=9
     [imageName]='NewFile9.png'
