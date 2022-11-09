@@ -1,0 +1,8 @@
+R_B= 3,02 MOhm
+Betta 570
+
+
+Změny R_B:
+
+NewFile4 ... R_b=1MOhm
+NewFile5 ... R_b=4,16MOhm
