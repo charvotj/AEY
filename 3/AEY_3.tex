@@ -63,7 +63,6 @@
 	\newpage
 	\section{Výsledky počítačové simulace}
 		\input{tex/numerika}
-
 	\newpage
 	\section{Měření v laboratoři}
 		\input{tex/laborky}
@@ -71,5 +70,15 @@
 		
 	\clearpage
 	\section{Závěr}
-		ahoj \(\omega =2\pi f^{-1} \) 
-\end{document} 
+		U zapojení zesilovače s nesymetrickým napájením jsme nejprve vyhodnocovali stejnosměrný pracovní bod.
+		Abychom mohli přenášet kladnou i zápornou periodu signálu, je potřeba tento signál stejnosměrně posunout, aby se ve výsledku i zesílený výstupní signál pohyboval v mezích \qty{0}{\volt} - \(U_{nap} \).
+		Tab. \ref{tab:dc-bod} obsahuje porovnání hodnot napětí v jednotlivých uzlech získaných výpočtem, simulací a následně měřením. Tyto hodnoty se téměř neliší a drobná odchylka měřených hodnot je způsobena zejména nedokonalým nastavením napájecího napětí (uzel 1).
+		Při změně offsetu např. změnou jednoho z odporů na děliči může dojít k ořezání jedné půlvlny signálu, jak je vidět z obrázků 4 a 13. 
+
+		Dále jsme zkoumali zapojení diferenčního a sumačního zesilovače, odvodili jsme vztah pro výstupní napětí, které by se pro diferenční zesilovač melo rovnat rozdílu obou vstupních. Kromě toho je tedy signál invertovaný. 
+		Odečtení signálů jsme pozorovali jak v simulaci (Obr. 9 a 10) tak i v laboratoři (Obr. 14, 15 a 16).
+
+		Funkce sumačního zesilovače je obdobná, odvodili jsme, že na výstupu by měl být invertovaný součet obou vstupních signálů. Simulace součtu signálů se nachází na obrázku 7. V laboratoři jsme zapojení testovali pro dva signály s odlišnou amplitudou i frekvencí (Obr. 17) a také pro součet signálu s nulovým signálem, kdy na výstupu je invertovaná verze prvního vstupního signálu (Obr. 18).
+
+		Všechny průběhy nám vyšly dle očekávání a měření v laboratoři odpovídá předešlým simulacím.
+\end{document}
