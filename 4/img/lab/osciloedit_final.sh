@@ -10,13 +10,13 @@ declare -A settings0=(
     [chAdivPosition]='100,395'
 
     [chBdivText]='140 mV/div'
-    [chBdivPosition]='310,395'
+    [chBdivPosition]='400,395'
 
     [chCdivText]='140 mV/div'
-    [chCdivPosition]='200,395'
+    [chCdivPosition]='250,395'
 
     [timeDivText]='200 us/div'
-    [timeDivPosition]='545,395'
+    [timeDivPosition]='565,395'
 
     [leftYaxisText]='U (mV)'
     [leftYaxisPosition]='90,50'
@@ -25,16 +25,16 @@ declare -A settings0=(
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
-    [timeAxisPosition]='460,400'
+    [timeAxisPosition]='600,370'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='200,150'
+    [chALabelPosition]='160,290'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='470,70'
+    [chBLabelPosition]='400,190'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='90,140'
+    [chCLabelPosition]='280,190'
 )
 
 declare -A settings1=(
@@ -78,10 +78,10 @@ declare -A settings2=(
     [chAdivPosition]='100,395'
 
     [chBdivText]='10 mV/div'
-    [chBdivPosition]='310,395'
+    [chBdivPosition]='400,395'
 
     [chCdivText]='10 mV/div'
-    [chCdivPosition]='200,395'
+    [chCdivPosition]='250,395'
 
     [timeDivText]='200 us/div'
     [timeDivPosition]='545,395'
@@ -93,16 +93,16 @@ declare -A settings2=(
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
-    [timeAxisPosition]='460,400'
+    [timeAxisPosition]='600,370'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='200,150'
+    [chALabelPosition]='300,120'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='470,70'
+    [chBLabelPosition]='300,300'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='90,140'
+    [chCLabelPosition]='175,100'
 )
 
 declare -A settings3=(
@@ -115,10 +115,10 @@ declare -A settings3=(
     [chAdivPosition]='100,395'
 
     [chBdivText]='50 mV/div'
-    [chBdivPosition]='310,395'
+    [chBdivPosition]='400,395'
 
     [chCdivText]='50 mV/div'
-    [chCdivPosition]='200,395'
+    [chCdivPosition]='250,395'
 
     [timeDivText]='200 us/div'
     [timeDivPosition]='545,395'
@@ -130,16 +130,16 @@ declare -A settings3=(
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
-    [timeAxisPosition]='460,400'
+    [timeAxisPosition]='600,370'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='200,150'
+    [chALabelPosition]='240,70'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='470,70'
+    [chBLabelPosition]='470,230'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='90,140'
+    [chCLabelPosition]='220,230'
 )
 
 declare -A settings4=(
@@ -152,10 +152,10 @@ declare -A settings4=(
     [chAdivPosition]='100,395'
 
     [chBdivText]='500 mV/div'
-    [chBdivPosition]='270,395'
+    [chBdivPosition]='400,395'
 
     [chCdivText]='500 mV/div'
-    [chCdivPosition]='100,355'
+    [chCdivPosition]='250,395'
 
     [timeDivText]='20 us/div'
     [timeDivPosition]='545,395'
@@ -167,16 +167,16 @@ declare -A settings4=(
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
-    [timeAxisPosition]='460,400'
+    [timeAxisPosition]='600,370'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='230,100'
+    [chALabelPosition]='515,100'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='430,50'
+    [chBLabelPosition]='510,280'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='90,100'
+    [chCLabelPosition]='250,100'
 )
 
 declare -A settings5=(
@@ -207,10 +207,10 @@ declare -A settings5=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='225,135'
+    [chALabelPosition]='230,150'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='430,165'
+    [chBLabelPosition]='410,180'
 
     [chCLabelText]='Uin2'
     [chCLabelPosition]='135,135'
@@ -247,10 +247,10 @@ declare -A settings6=(
     [chALabelPosition]='165,70'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='300,47'
+    [chBLabelPosition]='280,200'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='165,165'
+    [chCLabelPosition]='280,280'
 )
 
 declare -A settings7=(
@@ -284,10 +284,10 @@ declare -A settings7=(
     [chALabelPosition]='165,70'
 
     [chBLabelText]='Uout1'
-    [chBLabelPosition]='300,70'
+    [chBLabelPosition]='265,190'
 
     [chCLabelText]='Uout2'
-    [chCLabelPosition]='165,190'
+    [chCLabelPosition]='265,119'
 )
 
 declare -A settings8=(
@@ -303,12 +303,12 @@ declare -A settings8=(
     [chBdivPosition]='250,395'
 
     [chCdivText]='14 mV/div'
-    [chCdivPosition]='100,360'
+    [chCdivPosition]='250,395'
 
     [timeDivText]='500 us/div'
     [timeDivPosition]='545,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]=''
     [leftYaxisPosition]='90,50'
 
     [rightYaxisText]='U (mV)'
@@ -318,13 +318,13 @@ declare -A settings8=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin1'
-    [chALabelPosition]='225,135'
+    [chALabelPosition]='300,260'
 
     [chBLabelText]=''
     [chBLabelPosition]='430,165'
 
     [chCLabelText]='Uout'
-    [chCLabelPosition]='135,135'
+    [chCLabelPosition]='175,150'
 )
 
 declare -A settings9=(
@@ -355,13 +355,13 @@ declare -A settings9=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='165,70'
+    [chALabelPosition]='300,280'
 
     [chBLabelText]='Uout2'
-    [chBLabelPosition]='300,70'
+    [chBLabelPosition]='290,70'
 
     [chCLabelText]='Uout1'
-    [chCLabelPosition]='165,190'
+    [chCLabelPosition]='155,180'
 )
 
 declare -A settings10=(
@@ -389,10 +389,10 @@ declare -A settings10=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='490,280'
+    [chALabelPosition]='200,310'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='490,95'
+    [chBLabelPosition]='500,75'
 )
 
 declare -A settings11=(
@@ -420,10 +420,10 @@ declare -A settings11=(
     [timeAxisPosition]='460,400'
 
     [chALabelText]='Uin'
-    [chALabelPosition]='490,280'
+    [chALabelPosition]='280,300'
 
     [chBLabelText]='Uout'
-    [chBLabelPosition]='490,95'
+    [chBLabelPosition]='520,50'
 )
 
 declare -A settings12=(
