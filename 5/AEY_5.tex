@@ -1,0 +1,84 @@
+% !TeX encoding = UTF-8
+
+\documentclass{protokol}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+
+%====== Units =====
+\usepackage{siunitx}
+\sisetup{inter-unit-product =\ensuremath{\cdot}}
+\sisetup{group-digits = integer}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{exponent-product = \ensuremath{\cdot}}
+\sisetup{separate-uncertainty}
+\sisetup{tight-spacing = false}
+%\sisetup{scientific-notation = true}
+%\sisetup{round-mode=places,round-precision=4}
+%\sisetup{evaluate-expression}
+
+
+%====== Grafy =====
+\usepackage{pgfplots}
+\pgfplotsset{width=0.8\linewidth, compat=1.17}
+\def\plotcscale{0.8}
+\usepackage{pgfplotstable}
+\usepackage[figurename=Obr.]{caption} % figure caption rename
+%====== Rovnice align block ======
+\usepackage{amsmath}
+\setlength{\jot}{10pt} % rozestup mezi řádky
+
+\graphicspath{ {./img/} }
+
+%====== Vyplňte údaje ======
+\jmeno{Jakub Charvot}
+\kod{240844}
+\rocnik{2.}
+\obor{MET}
+\skupina{MET/4}
+\spolupracoval{Radek Kučera}
+
+\merenodne{1.\,12.\,2022}
+\odevzdanodne{15.\,12.\,2022}
+\nazev{AKO a generátory signálů s OZ}
+\cislo{5} %měřené úlohy
+
+\predmet{Analogové elektronické obvody}
+\ustav{Ústav mikroelektroniky}
+\skola{FEKT VUT v Brně}
+
+\def\para{x+0}
+\def\parb{\para-80}
+
+
+\begin{document}
+	%====== Vygenerování tabulky ======
+	\maketitle
+	%====== Úvodní texty protokolu ======
+
+	\section{Teoretický úvod}
+		\input{tex/1-uvod}
+		
+	% % \newpage
+	% \section{Výsledky počítačové simulace}
+	% 	\input{tex/numerika}
+		
+	% \clearpage
+	% \section{Měření v laboratoři}
+	% 	\input{tex/laborky}
+		
+		
+	% % \clearpage
+	% \section{Závěr}
+	% 	Simulovali a měřili jsme tři různá zapojení usměrňovačů s operačními zesilovači. Nejjednodušší je zapojení a), ke kterému stačí jediný OZ, ale usměrňuje pouze jednocestně.
+	% 	Snažili jsme se vyhodnotit, v jakém rozsahu amplitud a frekvencí dokáží jednotlivé obvody spolehlivě usměrňovat. Jako kritérium pro nás byla velikost překmitů do napětí opačné polarity a také samotný tvar signálu - jestli stále připomíná původní sinusoidu. 
+
+	% 	Obecně se dá říci, že v simulaci se nám zdál signál nepoužitelný už při podstatně větší amplidudě než při měření reálných obvodů, kdy jsme dosáhly i menších hodnot, naopak ale v simulaci zůstával signál použitelný i při vyšších kmitočtech, při reálném měření pak k překmitům docházelo u mnohem nižších kmitočtů.
+
+	% 	Pokud bychom porovnali obě zapojení dvoucestného usměrňovače, jednoznačně vítězí zapojení c), u kterého jsme dosáhli lepších parametrů. Pro zlepšení funkce zapojení b) by bylo zapotřebí použít přesnější rezistory (\(R_4,R_5, R_6\)), nepřesnost způsobuje to, že po sobě jdoucí půlperiody signálu nejsou shodné a také na jejich rozhraní pak snáze dochází k překmitům. 
+	% 	Zapojení c) vyžaduje oproti tomu pouze dva přesné rezistory a to stejné hodnoty, zde jsme při měření zaznamenali podstatně menší nesymetrii.
+
+	
+
+\end{document}
