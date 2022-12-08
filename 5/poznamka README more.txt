@@ -1,16 +1,16 @@
-jednocestny
-    NewFile1    500mV, 1kHz
-    NewFike2 a 3 15mV, 1kHz
-    NewFile4    200mV, 1kHz
-    NewFile5    1V, 5kHz
-    NewFile6    1V, 30kHz
+Měříme jen na klasickém našem OZ, co nevím číslo
+Nezapojujeme tranzistor s posuvníkem úrovní
+hraniční hodnoty potenciometry 2*2=4 obr. s kurzory
+    výstup z OZ, kapacitor
+    perioda, amplituda
 
-    druhé zapojení
-    NewFile7    1V,1kHz
-    NewFile8    1V,3kHz překmity jsou zlé už
-    NewFile9    50mV, 419Hz
 
-    třetí zapojení
-    NewFile10   500mV, 1kHz
-    NewFile11   500mV, 4kHz překmit 100mV na polovičním rozsahu
-    NewFile12   10mV, 420Hz
+NewFile1    a) Rmin ...hodnota z čítače 6,86 kHz
+NewFile2    same + cursors
+NewFile3    a) Rmax ...rise time je stejný ...hodnota z čítače 88,84 Hz
+
+NewFile4    b) Rmin ...hodnota z čítače 6,34 kHz
+NewFile5    same + cursors
+NewFile6    b) Rmax ...hodnota z čítače 98,4Hz
+
+

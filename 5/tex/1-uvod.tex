@@ -21,11 +21,13 @@
         \label{fig:hystereze-png}
     \end{figure}
     
-    Vstup tohoto obvodu je připojen k RC čánku, jehož časová konstanta nám určuje frekvenci překlápění, neboli frekvenci našich vzniklých obdélníkových pulsů, \(F=\frac{0,455}{RC}\).
+    Pokud uvažujeme obvod s vybitým kondenzátorem, objeví se na vstupu po chvíli kladné saturační napětí a kondenzátor se začne nabíjet přes odpory \(R_1\) a \(R_p\). 
+    Až se nabije na hodnotu napětí, která je na odporovém děliči \(R_2\) \(R3\), obvod se překlopí a kondenzátor se začne vybíjet, překlopením se změní taky referenční hodnota napětí na děliči, tím vzniká zmíněná hysterezní smyčka.
+    kondenzátor s odpory \(R_1\) a \(R_p\) tvoří RC čánku, jehož časová konstanta nám určuje frekvenci překlápění, neboli frekvenci našich vzniklých obdélníkových pulsů, \(F=\frac{0,455}{RC}\).
 
     \subsubsection{Generátor pilových kmitů}
 
-    Jako základí blok nám opět poslouží komparátor s hysterezí, ke kterému je připojen invertující integrátor, který ze vzniklých obdélníkových kmitů tvoří pilový signál.
+    Jako základí blok nám opět poslouží komparátor s hysterezí -- situace je podobná jako v minulém zapojení a na výstupu prvního OZ je opět obdélníkový průběh, k tomu je připojen invertující integrátor, který z obdélníkových kmitů tvoří pilový signál.
     % Operační zesilovač s OZ má za úkol překonat nedostatky, které má zapojení pouze s diodami, které díky svému prahovému napětí nedokáží usměrňovat velmi malá napětí. 
     
     % Zapojení 1a) je jednocestný usměrňovač, kdy je vždy přes jednu diodu uzavřená záporná zpětná vazba a druhá dioda je uzavřená. Na výstupu je pak signál jednocestně usměrněný a invertovaný. 
