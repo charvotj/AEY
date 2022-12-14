@@ -60,24 +60,25 @@
 	\section{Teoretický úvod}
 		\input{tex/1-uvod}
 		
-	% % \newpage
-	% \section{Výsledky počítačové simulace}
-	% 	\input{tex/numerika}
+	% \newpage
+	\section{Výsledky počítačové simulace}
+		\input{tex/numerika}
 		
-	% \clearpage
-	% \section{Měření v laboratoři}
-	% 	\input{tex/laborky}
+	\clearpage
+	\section{Měření v laboratoři}
+		\input{tex/laborky}
 		
 		
-	% % \clearpage
-	% \section{Závěr}
-	% 	Simulovali a měřili jsme tři různá zapojení usměrňovačů s operačními zesilovači. Nejjednodušší je zapojení a), ke kterému stačí jediný OZ, ale usměrňuje pouze jednocestně.
-	% 	Snažili jsme se vyhodnotit, v jakém rozsahu amplitud a frekvencí dokáží jednotlivé obvody spolehlivě usměrňovat. Jako kritérium pro nás byla velikost překmitů do napětí opačné polarity a také samotný tvar signálu - jestli stále připomíná původní sinusoidu. 
+	\clearpage
+	\section{Závěr}
+		Simulovali a měřili jsme dva obvody, které mohou sloužit jako jednoduchý generátor obdélníkového a pilového (přesněji trojúhelníkového) signálu.
 
-	% 	Obecně se dá říci, že v simulaci se nám zdál signál nepoužitelný už při podstatně větší amplidudě než při měření reálných obvodů, kdy jsme dosáhly i menších hodnot, naopak ale v simulaci zůstával signál použitelný i při vyšších kmitočtech, při reálném měření pak k překmitům docházelo u mnohem nižších kmitočtů.
+		Frekvenci kmitů lze nastavit za pomoci potenciometru (\(R_{p} \)). Tabulka \ref{tab:tabulka_hodnot_brewster} zobrazuje porovnání simulovaného a měřeného frekvenčního rozsahu. Protože fyzický potenciometr není schopný přesně dosáhnout ani jedné z krajních poloh, je rozsah měřený v laboratoři o něco menší.
+		
+		Z měření kurzory jsme také vypočítali strmost náběžných hran v jednotlivých situacích, hodnoty jsou opět v Tabulce \ref{tab:tabulka_hodnot_brewster}. Strmost hran (v podstatě mezní rychlost přeběhu) je pro OZ 072 přibližně 10x větší než pro náš standartní OZ 1458, to odpovídá také obrázkům ze simulace, kde s tímto OZ v podstatě nedocházelo ke zkosení hran ani při maximální frekvenci. V laboratoři jsme toto ale bohužel nemohli ověřit. 
+		OZ 1458 ale dosáhl v laboratoři dokonce o něco lepšího výsledku než v simulaci, rozdíl však není velký.
 
-	% 	Pokud bychom porovnali obě zapojení dvoucestného usměrňovače, jednoznačně vítězí zapojení c), u kterého jsme dosáhli lepších parametrů. Pro zlepšení funkce zapojení b) by bylo zapotřebí použít přesnější rezistory (\(R_4,R_5, R_6\)), nepřesnost způsobuje to, že po sobě jdoucí půlperiody signálu nejsou shodné a také na jejich rozhraní pak snáze dochází k překmitům. 
-	% 	Zapojení c) vyžaduje oproti tomu pouze dva přesné rezistory a to stejné hodnoty, zde jsme při měření zaznamenali podstatně menší nesymetrii.
+		Pro praktické použití je tedy potřeba zvolit OZ s dostatečnou hodnotou SR pro námi žádanou frekvenci. Také by bylo potřeba nějakým způsobem doladit střídu generovaného obdélníkového signálu, protože už i v našem případě je u výsledného trojúhelníkového signálu vidět drobná nesymetrie právě tímto způsobená. 
 
 	
 
