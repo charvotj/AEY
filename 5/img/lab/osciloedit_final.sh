@@ -6,34 +6,34 @@ declare -A settings0=(
     [imageNumber]=1
     [imageName]='NewFile1.png'
 
-    [chAdivText]='140 mV/div'
+    [chAdivText]='1 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='140 mV/div'
-    [chBdivPosition]='400,395'
+    [chBdivText]='2 V/div'
+    [chBdivPosition]='200,395'
 
-    [chCdivText]='140 mV/div'
+    [chCdivText]=''
     [chCdivPosition]='250,395'
 
-    [timeDivText]='200 us/div'
+    [timeDivText]='20 us/div'
     [timeDivPosition]='565,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
+    [rightYaxisText]='U (V)'
     [rightYaxisPosition]='620,50'
 
     [timeAxisText]='t (us)'
     [timeAxisPosition]='600,370'
 
-    [chALabelText]='Uin1'
-    [chALabelPosition]='160,290'
+    [chALabelText]='Uc'
+    [chALabelPosition]='160,150'
 
-    [chBLabelText]='Uout1'
-    [chBLabelPosition]='400,190'
+    [chBLabelText]='Uout'
+    [chBLabelPosition]='350,90'
 
-    [chCLabelText]='Uout2'
+    [chCLabelText]=''
     [chCLabelPosition]='280,190'
 )
 
@@ -74,35 +74,35 @@ declare -A settings2=(
     [imageNumber]=3
     [imageName]='NewFile3.png'
 
-    [chAdivText]='10 mV/div'
+    [chAdivText]='1 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='10 mV/div'
-    [chBdivPosition]='400,395'
+    [chBdivText]='2 V/div'
+    [chBdivPosition]='200,395'
 
-    [chCdivText]='10 mV/div'
+    [chCdivText]=''
     [chCdivPosition]='250,395'
 
-    [timeDivText]='200 us/div'
-    [timeDivPosition]='545,395'
+    [timeDivText]='2 ms/div'
+    [timeDivPosition]='565,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
+    [rightYaxisText]='U (V)'
     [rightYaxisPosition]='620,50'
 
-    [timeAxisText]='t (us)'
+    [timeAxisText]='t (ms)'
     [timeAxisPosition]='600,370'
 
-    [chALabelText]='Uin'
-    [chALabelPosition]='300,120'
+    [chALabelText]='Uc'
+    [chALabelPosition]='270,150'
 
-    [chBLabelText]='Uout1'
-    [chBLabelPosition]='300,300'
+    [chBLabelText]='Uout'
+    [chBLabelPosition]='375,90'
 
-    [chCLabelText]='Uout2'
-    [chCLabelPosition]='175,100'
+    [chCLabelText]=''
+    [chCLabelPosition]='280,190'
 )
 
 declare -A settings3=(
@@ -111,39 +111,39 @@ declare -A settings3=(
     [imageNumber]=4
     [imageName]='NewFile4.png'
 
-    [chAdivText]='50 mV/div'
+    [chAdivText]='2 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='50 mV/div'
-    [chBdivPosition]='400,395'
+    [chBdivText]='1 V/div'
+    [chBdivPosition]='200,395'
 
-    [chCdivText]='50 mV/div'
+    [chCdivText]=''
     [chCdivPosition]='250,395'
 
-    [timeDivText]='200 us/div'
-    [timeDivPosition]='545,395'
+    [timeDivText]='20 us/div'
+    [timeDivPosition]='565,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
-    [rightYaxisPosition]='620,50'
+    [rightYaxisText]='U (V)'
+    [rightYaxisPosition]='620,70'
 
     [timeAxisText]='t (us)'
     [timeAxisPosition]='600,370'
 
-    [chALabelText]='Uin'
-    [chALabelPosition]='240,70'
+    [chALabelText]='Uout1'
+    [chALabelPosition]='160,150'
 
-    [chBLabelText]='Uout1'
-    [chBLabelPosition]='470,230'
+    [chBLabelText]='Uout2'
+    [chBLabelPosition]='350,90'
 
-    [chCLabelText]='Uout2'
-    [chCLabelPosition]='220,230'
+    [chCLabelText]=''
+    [chCLabelPosition]='280,190'
 )
 
 declare -A settings4=(
-    [active]=1
+    [active]=0
     [type]='normal'
     [imageNumber]=5
     [imageName]='NewFile5.png'
@@ -185,35 +185,35 @@ declare -A settings5=(
     [imageNumber]=6
     [imageName]='NewFile6.png'
 
-    [chAdivText]='500 mV/div'
+    [chAdivText]='2 V/div'
     [chAdivPosition]='100,395'
 
-    [chBdivText]='500 mV/div'
-    [chBdivPosition]='250,395'
+    [chBdivText]='1 V/div'
+    [chBdivPosition]='200,395'
 
-    [chCdivText]='500 mV/div'
-    [chCdivPosition]='100,360'
+    [chCdivText]=''
+    [chCdivPosition]='250,395'
 
-    [timeDivText]='5 us/div'
-    [timeDivPosition]='545,395'
+    [timeDivText]='2 ms/div'
+    [timeDivPosition]='565,395'
 
-    [leftYaxisText]='U (mV)'
+    [leftYaxisText]='U (V)'
     [leftYaxisPosition]='90,50'
 
-    [rightYaxisText]='U (mV)'
-    [rightYaxisPosition]='620,50'
+    [rightYaxisText]='U (V)'
+    [rightYaxisPosition]='620,70'
 
-    [timeAxisText]='t (us)'
-    [timeAxisPosition]='460,400'
+    [timeAxisText]='t (ms)'
+    [timeAxisPosition]='600,370'
 
-    [chALabelText]='Uin1'
-    [chALabelPosition]='230,150'
+    [chALabelText]='Uout1'
+    [chALabelPosition]='380,90'
 
-    [chBLabelText]='Uout'
-    [chBLabelPosition]='410,180'
+    [chBLabelText]='Uout2'
+    [chBLabelPosition]='150,150'
 
-    [chCLabelText]='Uin2'
-    [chCLabelPosition]='135,135'
+    [chCLabelText]=''
+    [chCLabelPosition]='280,190'
 )
 
 declare -A settings6=(
